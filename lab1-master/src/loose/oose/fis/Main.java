@@ -6,6 +6,7 @@ import loose.oose.fis.documents.XML;
 import loose.oose.fis.processors.Procesor;
 import loose.oose.fis.processors.ProcesorCautare;
 import loose.oose.fis.processors.ProcesorCompus;
+import loose.oose.fis.processors.NewClass;
 
 import java.util.ArrayList;
 
@@ -39,5 +40,8 @@ public class Main {
         pc2.adaugaProcesor(c3);
 
         System.out.println(pc2.proceseaza(documente));
+
+        NewClass nc = new NewClass(5);
+        System.out.println(nc.getSomeValue());
     }
 }
