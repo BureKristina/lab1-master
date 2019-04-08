@@ -42,6 +42,6 @@ public class Main {
         System.out.println(pc2.proceseaza(documente));
 
         NewClass nc = new NewClass(5);
-        System.out.println(nc.getSomeValue());
+        System.out.println(nc.getSomeValue() + 5);
     }
 }
